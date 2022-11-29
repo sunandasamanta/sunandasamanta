@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body {
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    /* margin: 5px 5px; */
+    background-color: #fff;
+}
+section[aria-label="navbar"] {
+    width: 100vw;    
+    margin: 2rem 5rem;
+    /* height: 20vh; */
+    /* background-color: #f00; */
+}
+
+.list > li{
+    display: inline;
+}
+.list-item {
+    color: rgba(135, 140, 145, 0.9);
+}
+.list-item:nth-child(1){
+    color: #000;
+}
+.navbar-container {
+    display: flex;
+    width: 100vw;
+    /* flex: 2 1 auto; */
+}
+.button-group {
+    margin: auto;
+    
+}
+.nav-button{    
+    box-shadow: 3px 3px 3px #dadde1;
+    border: none;
+    background-color: rgba(57, 60, 131, 85%);    
+    color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button-group {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+section[aria-label="banner"] {
+    margin: 5rem;
+    width: 100vw;
+    
+}
+.banner-container {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+.banner-container > div > img {
+    width: 50vw;
+}
+.heading-text {
+    color: #010059;
+    font-weight: 900;
+    font-size: 64px;
+}
+.heading-text > span {
+    color: rgba(57, 60, 131, 95%);
+}
+.description {
+    color: rgba(74, 76, 78, 90%);
+}
+
+.btn {
+    position: absolute;
+    /* top: 50rem; */
+    /* left: 3rem; */
+}
